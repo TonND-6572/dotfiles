@@ -134,7 +134,7 @@ eval "$(ssh-agent -s)"
 echo "remember to do ssh-add ~/.ssh/github-ssh"
 
 neofetch
-
+fortune
 ## run this when try to run VirtualBox
 # modprobe vboxdrv
 #
