@@ -9,6 +9,7 @@
     "modules-left": [
         "clock",
         "hyprland/workspaces",
+        "custom/niflveil"
     ],
     "modules-center": [
         "hyprland/window"
@@ -31,12 +32,14 @@
           "kitty": "", // Windows that contain "foot" in either class or title. For optimization reasons, it will only match against a title if at least one other window explicitly matches against a title.
           "code": "󰨞",
           "nautilus": "",
+	  "dolphin": "",
           "slack": "",
           "Docker Desktop": "",
           "pgAdmin 4": "🐘",
           "Remmina Remote Desktop Client": "🖥️",
           "Text Editor": "📝",
           "Spotify": "",
+          "Notion": "",
         },
         "disable-scroll": true,
         "all-outputs": false,
@@ -146,5 +149,13 @@
         "tooltip-format": "{device_alias}",
         "tooltip-format-connected": " {device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}"
+    },
+    "custom/niflveil": {
+        "format": "{}",
+        "exec": "niflveil show",
+        "on-click": "niflveil restore",
+        "return-type": "json",
+        "interval": "once",
+        "signal": 8
     }
 }

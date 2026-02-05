@@ -160,9 +160,19 @@ tooltip {
 }
 #battery.critical {
     color: #F00;
-} 
+}
+
 #custom-moon {
     border-radius: 0px 10px 10px 0px;
     border-right: 0px;
     margin-left: 0px;
+}
+
+#custom-niflveil {
+    padding: 0 10px;
+    color: #88c0d0;
+}
+
+#custom-niflveil.empty {
+    color: #4c566a;
 }
