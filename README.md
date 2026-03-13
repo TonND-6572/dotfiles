@@ -11,8 +11,3 @@ $ stow hyprland
 ```
 
 Or, if you're a nerd, just copy it manually and f*ck stow.
-
-> Bonus
-`gemu zmj cruie, cwj ridp bru jrwj sew lz crm w jri =))`
-Try to figure out the key.
-Hint: Affine cipher.
